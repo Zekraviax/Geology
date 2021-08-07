@@ -17,7 +17,7 @@ import java.util.OptionalLong;
 public interface OverworldDimensionTypeAccessor {
     @Accessor("OVERWORLD")
     @Mutable
-    public static void setOverworld(DimensionType dimensionType) {
+    static void setOverworld(DimensionType dimensionType) {
         throw new AssertionError();
     }
 }

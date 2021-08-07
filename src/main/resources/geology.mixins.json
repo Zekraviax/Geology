@@ -4,7 +4,8 @@
   "package": "com.cafecraft.geology.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-    "OverworldDimensionTypeAccessor"
+    "OverworldDimensionTypeAccessor",
+    "GeneratorTypeAccessor"
   ],
   "client": [
   ],
