@@ -37,6 +37,7 @@ public class Geology implements ModInitializer {
 	private static final Biome ROCKS = createRockBiome();
 	private static Biome createRockBiome() {
 		SpawnSettings.Builder spawnSettings = new SpawnSettings.Builder();
+
 		DefaultBiomeFeatures.addFarmAnimals(spawnSettings);
 		DefaultBiomeFeatures.addMonsters(spawnSettings, 95, 5, 100);
 
@@ -46,8 +47,8 @@ public class Geology implements ModInitializer {
 		DefaultBiomeFeatures.addLandCarvers(generationSettings);
 		DefaultBiomeFeatures.addDefaultLakes(generationSettings);
 		DefaultBiomeFeatures.addDungeons(generationSettings);
-		DefaultBiomeFeatures.addMineables(generationSettings);
-		DefaultBiomeFeatures.addDefaultOres(generationSettings);
+		//DefaultBiomeFeatures.addMineables(generationSettings);
+		//DefaultBiomeFeatures.addDefaultOres(generationSettings);
 		DefaultBiomeFeatures.addDefaultDisks(generationSettings);
 		DefaultBiomeFeatures.addSprings(generationSettings);
 		DefaultBiomeFeatures.addFrozenTopLayer(generationSettings);
